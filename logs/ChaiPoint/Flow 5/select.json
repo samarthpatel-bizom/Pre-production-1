@@ -8,9 +8,9 @@
         "bap_id": "buyer-app-preprod.ondc.org",
         "bap_uri": "https://buyer-app-preprod.ondc.org/protocol/v1",
         "bpp_uri": "https://ondc.chaipoint.com/",
-        "transaction_id": "2202f022-b670-46db-89d4-c7dff0e2aa8c",
-        "message_id": "bb330591-2817-4c7b-9db0-37328c29b795",
-        "timestamp": "2023-06-01T08:57:41.573Z",
+        "transaction_id": "e037aa45-6796-4cd1-9293-e2183ecfb03a",
+        "message_id": "0419fb4b-814f-491b-9256-9f56203a7095",
+        "timestamp": "2023-06-12T14:30:35.983Z",
         "bpp_id": "ondc.chaipoint.com",
         "ttl": "PT30S"
     },
@@ -25,7 +25,7 @@
                     "location_id": "839"
                 },
                 {
-                    "id": "1061",
+                    "id": "831",
                     "quantity": {
                         "count": 2
                     },

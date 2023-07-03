@@ -9,9 +9,9 @@
 	"bap_uri": "https://buyer-app-preprod.ondc.org/protocol/v1/on_select",
 	"bpp_id": "ondc.chaipoint.com",
 	"bpp_uri": "https://ondc.chaipoint.com/",
-	"transaction_id": "fe70e3e2-bb3c-40cf-8ac2-675b962dd3c8",
-	"message_id": "faff93c2-b703-4afe-96a7-cc211ac98cb3",
-	"timestamp": "2023-05-31T21:00:44.907Z",
+	"transaction_id": "1ab22be6-e22d-4712-b839-65619c90636a",
+	"message_id": "348bd4ac-fb92-470c-96a2-a97d434e8178",
+	"timestamp": "2023-06-13T11:29:52.561Z",
 	"ttl": "PT30S"
   },
   "message": {
@@ -19,6 +19,10 @@
 	  "items": [
 		{
 		  "id": "1046",
+		  "fulfillment_id": "76"
+		},
+		{
+		  "id": "831",
 		  "fulfillment_id": "76"
 		},
 		{
@@ -32,17 +36,17 @@
 	  "quote": {
 		"price": {
 		  "currency": "INR",
-		  "value": "712.0"
+		  "value": "796.0"
 		},
 		"breakup": [
 		  {
 			"item": {
 			  "quantity": {
 				"available": {
-				  "count": "2"
+				  "count": "9999"
 				},
 				"maximum": {
-				  "count": "2"
+				  "count": "9999"
 				}
 			  },
 			  "price": {
@@ -82,17 +86,17 @@
 			  },
 			  "price": {
 				"currency": "INR",
-				"value": "160.0"
+				"value": "240.0"
 			  }
 			},
-			"title": "Cold Coffee",
+			"title": "Tomato Pasta + Cold Coffee",
 			"price": {
 			  "currency": "INR",
-			  "value": "320.0"
+			  "value": "240.0"
 			},
-			"@ondc/org/item_id": "169",
+			"@ondc/org/item_id": "831",
 			"@ondc/org/item_quantity": {
-			  "count": 2
+			  "count": 1
 			},
 			"@ondc/org/title_type": "item"
 		  },
@@ -100,7 +104,42 @@
 			"title": "Tax",
 			"price": {
 			  "currency": "INR",
-			  "value": "16.0"
+			  "value": "12.0"
+			},
+			"@ondc/org/item_id": "831",
+			"@ondc/org/title_type": "tax"
+		  },
+		  {
+			"item": {
+			  "quantity": {
+				"available": {
+				  "count": "9999"
+				},
+				"maximum": {
+				  "count": "9999"
+				}
+			  },
+			  "price": {
+				"currency": "INR",
+				"value": "160.0"
+			  }
+			},
+			"title": "Cold Coffee",
+			"price": {
+			  "currency": "INR",
+			  "value": "160.0"
+			},
+			"@ondc/org/item_id": "169",
+			"@ondc/org/item_quantity": {
+			  "count": 1
+			},
+			"@ondc/org/title_type": "item"
+		  },
+		  {
+			"title": "Tax",
+			"price": {
+			  "currency": "INR",
+			  "value": "8.0"
 			},
 			"@ondc/org/item_id": "169",
 			"@ondc/org/title_type": "tax"

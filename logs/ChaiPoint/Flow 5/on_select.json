@@ -1,4 +1,3 @@
-
 {
     "context": {
         "domain": "nic2004:52110",
@@ -10,16 +9,16 @@
         "bap_uri": "https://buyer-app-preprod.ondc.org/protocol/v1/on_select",
         "bpp_id": "ondc.chaipoint.com",
         "bpp_uri": "https://ondc.chaipoint.com/",
-        "transaction_id": "2202f022-b670-46db-89d4-c7dff0e2aa8c",
-        "message_id": "bb330591-2817-4c7b-9db0-37328c29b795",
-        "timestamp": "2023-06-01T08:57:42.614Z",
+        "transaction_id": "e037aa45-6796-4cd1-9293-e2183ecfb03a",
+        "message_id": "0419fb4b-814f-491b-9256-9f56203a7095",
+        "timestamp": "2023-06-12T14:30:36.941Z",
         "ttl": "PT30S"
     },
     "message": {
         "order": {
             "items": [
                 {
-                    "id": "1061",
+                    "id": "831",
                     "fulfillment_id": "76"
                 },
                 {
@@ -33,7 +32,7 @@
             "quote": {
                 "price": {
                     "currency": "INR",
-                    "value": "1090.0"
+                    "value": "504.0"
                 },
                 "breakup": [
                     {
@@ -48,15 +47,15 @@
                             },
                             "price": {
                                 "currency": "INR",
-                                "value": "519.0"
+                                "value": "240.0"
                             }
                         },
-                        "title": "Snacks Combo 2",
+                        "title": "Tomato Pasta + Cold Coffee",
                         "price": {
                             "currency": "INR",
-                            "value": "1038.0"
+                            "value": "480.0"
                         },
-                        "@ondc/org/item_id": "1061",
+                        "@ondc/org/item_id": "831",
                         "@ondc/org/item_quantity": {
                             "count": 2
                         },
@@ -66,9 +65,9 @@
                         "title": "Tax",
                         "price": {
                             "currency": "INR",
-                            "value": "51.9"
+                            "value": "24.0"
                         },
-                        "@ondc/org/item_id": "1061",
+                        "@ondc/org/item_id": "831",
                         "@ondc/org/title_type": "tax"
                     },
                     {
@@ -105,15 +104,6 @@
                         },
                         "@ondc/org/item_id": "76",
                         "@ondc/org/title_type": "delivery"
-                    },
-                    {
-                        "title": "Convenience Fee",
-                        "price": {
-                            "currency": "INR",
-                            "value": "0.10"
-                        },
-                        "@ondc/org/item_id": "76",
-                        "@ondc/org/title_type": "misc"
                     }
                 ],
                 "ttl": "P1D"

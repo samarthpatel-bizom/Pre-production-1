@@ -9,14 +9,14 @@
         "bap_uri": "https://buyer-app-preprod.ondc.org/protocol/v1/on_update",
         "bpp_id": "ondc.chaipoint.com",
         "bpp_uri": "https://ondc.chaipoint.com/",
-        "transaction_id": "072da8d5-bec9-45c0-a8a9-54bd49ed326e",
-        "message_id": "7672fe8a-613d-443c-9d8f-4ae194034ee0",
-        "timestamp": "2023-06-01T07:34:39.165Z",
+        "transaction_id": "048d6947-13da-4541-b073-1ac3c04ee2bf",
+        "message_id": "dd1b0917-ebdf-4562-98d0-1596a8c7d78d",
+        "timestamp": "2023-06-12T14:22:34.123Z",
         "ttl": "PT30S"
     },
     "message": {
         "order": {
-            "id": "2023-06-01-172900",
+            "id": "2023-06-12-244221",
             "state": "Completed",
             "items": [
                 {
@@ -24,23 +24,23 @@
                     "quantity": {
                         "count": 2
                     },
-                    "fulfillment_id": "76"
+                    "fulfillment_id": "76",
+                    "tags": {
+                        "status": "Liquidated"
+                    }
                 },
                 {
                     "id": "1046",
                     "quantity": {
                         "count": 2
                     },
-                    "fulfillment_id": "76",
-                    "tags": {
-                        "status": "Liquidated"
-                    }
+                    "fulfillment_id": "76"
                 }
             ],
             "quote": {
                 "price": {
                     "currency": "INR",
-                    "value": "504.10"
+                    "value": "376.00"
                 },
                 "breakup": [
                     {
@@ -53,11 +53,11 @@
                         "title": "The Chennai Express",
                         "price": {
                             "currency": "INR",
-                            "value": "0.0"
+                            "value": "358.0"
                         },
                         "@ondc/org/item_id": "1046",
                         "@ondc/org/item_quantity": {
-                            "count": 0
+                            "count": 2
                         },
                         "@ondc/org/title_type": "item"
                     },
@@ -65,7 +65,7 @@
                         "title": "Tax",
                         "price": {
                             "currency": "INR",
-                            "value": "0.0"
+                            "value": "17.9"
                         },
                         "@ondc/org/item_id": "1046",
                         "@ondc/org/title_type": "tax"
@@ -80,11 +80,11 @@
                         "title": "Tomato Pasta + Cold Coffee",
                         "price": {
                             "currency": "INR",
-                            "value": "480.0"
+                            "value": "0.0"
                         },
                         "@ondc/org/item_id": "831",
                         "@ondc/org/item_quantity": {
-                            "count": 2
+                            "count": 0
                         },
                         "@ondc/org/title_type": "item"
                     },
@@ -92,7 +92,7 @@
                         "title": "Tax",
                         "price": {
                             "currency": "INR",
-                            "value": "24.0"
+                            "value": "0.0"
                         },
                         "@ondc/org/item_id": "831",
                         "@ondc/org/title_type": "tax"
@@ -131,13 +131,13 @@
                 },
                 "email": "akshay.jain@chaipoint.com",
                 "phone": "9424343337",
-                "created_at": "2023-06-01T07:14:28.463Z",
-                "updated_at": "2023-06-01T07:14:28.463Z"
+                "created_at": "2023-06-12T14:10:23.819Z",
+                "updated_at": "2023-06-12T14:10:23.819Z"
             },
             "payment": {
                 "uri": "https://juspay.in/",
                 "params": {
-                    "transaction_id": "ONDC-072da8d5-bec9-45c0-a8a9-54bd49ed326e-1",
+                    "transaction_id": "048d6947-13da-4541-b073-1ac3c04ee2bf",
                     "amount": "880",
                     "currency": "INR"
                 },
@@ -160,18 +160,18 @@
                     }
                 ]
             },
-            "created_at": "2023-06-01T07:16:03.195Z",
-            "updated_at": "2023-06-01T07:34:39.165Z",
+            "created_at": "2023-06-12T14:11:19.222Z",
+            "updated_at": "2023-06-12T14:22:34.123Z",
             "fulfillments": [
                 {
                     "id": "76",
                     "type": "Delivery",
                     "end": {
                         "time": {
-                            "timestamp": "2023-06-01T07:33:30.028Z",
+                            "timestamp": "2023-06-12T14:20:25.000Z",
                             "range": {
-                                "start": "2023-06-01T08:31:05.543Z",
-                                "end": "2023-06-01T09:01:05.543Z"
+                                "start": "2023-06-12T14:55:21.172Z",
+                                "end": "2023-06-12T15:09:21.172Z"
                             }
                         }
                     },
@@ -182,10 +182,10 @@
                     },
                     "start": {
                         "time": {
-                            "timestamp": "2023-06-01T07:32:20.028Z",
+                            "timestamp": "2023-06-12T14:19:26.000Z",
                             "range": {
-                                "start": "2023-06-01T07:16:05.543Z",
-                                "end": "2023-06-01T07:46:05.543Z"
+                                "start": "2023-06-12T14:11:21.172Z",
+                                "end": "2023-06-12T14:25:21.172Z"
                             }
                         }
                     },

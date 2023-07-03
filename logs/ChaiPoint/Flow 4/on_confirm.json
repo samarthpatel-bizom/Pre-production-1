@@ -9,14 +9,14 @@
         "bap_uri": "https://buyer-app-preprod.ondc.org/protocol/v1/on_confirm",
         "bpp_id": "ondc.chaipoint.com",
         "bpp_uri": "https://ondc.chaipoint.com/",
-        "transaction_id": "072da8d5-bec9-45c0-a8a9-54bd49ed326e",
-        "message_id": "ddc89c7f-5c4c-4099-ab21-74a20da28e5f",
-        "timestamp": "2023-06-01T07:16:05.543Z",
+        "transaction_id": "048d6947-13da-4541-b073-1ac3c04ee2bf",
+        "message_id": "98425471-020e-4630-95b1-4d8fee0aa4f1",
+        "timestamp": "2023-06-12T14:11:21.172Z",
         "ttl": "PT30S"
     },
     "message": {
         "order": {
-            "id": "2023-06-01-172900",
+            "id": "2023-06-12-244221",
             "state": "Created",
             "items": [
                 {
@@ -57,8 +57,8 @@
                         },
                         "time": {
                             "range": {
-                                "start": "2023-06-01T08:31:05.543Z",
-                                "end": "2023-06-01T09:01:05.543Z"
+                                "start": "2023-06-12T14:55:21.172Z",
+                                "end": "2023-06-12T15:09:21.172Z"
                             }
                         }
                     },
@@ -77,8 +77,8 @@
                         },
                         "time": {
                             "range": {
-                                "start": "2023-06-01T07:16:05.543Z",
-                                "end": "2023-06-01T07:46:05.543Z"
+                                "start": "2023-06-12T14:11:21.172Z",
+                                "end": "2023-06-12T14:25:21.172Z"
                             }
                         },
                         "contact": {
@@ -111,8 +111,8 @@
                 },
                 "email": "akshay.jain@chaipoint.com",
                 "phone": "9424343337",
-                "created_at": "2023-06-01T07:14:28.463Z",
-                "updated_at": "2023-06-01T07:14:28.463Z"
+                "created_at": "2023-06-12T14:10:23.819Z",
+                "updated_at": "2023-06-12T14:10:23.819Z"
             },
             "quote": {
                 "price": {
@@ -198,7 +198,7 @@
             "payment": {
                 "uri": "https://juspay.in/",
                 "params": {
-                    "transaction_id": "ONDC-072da8d5-bec9-45c0-a8a9-54bd49ed326e-1",
+                    "transaction_id": "048d6947-13da-4541-b073-1ac3c04ee2bf",
                     "amount": "880",
                     "currency": "INR"
                 },
@@ -221,8 +221,8 @@
                     }
                 ]
             },
-            "created_at": "2023-06-01T07:16:03.195Z",
-            "updated_at": "2023-06-01T07:16:05.543Z"
+            "created_at": "2023-06-12T14:11:19.222Z",
+            "updated_at": "2023-06-12T14:11:21.172Z"
         }
     }
 }

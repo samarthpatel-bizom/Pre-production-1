@@ -10,9 +10,9 @@
     "bap_id": "buyer-app-preprod.ondc.org",
     "bap_uri": "https://buyer-app-preprod.ondc.org/protocol/v1",
     "bpp_uri": "https://api.greenreceipt.in/ondc/",
-    "transaction_id": "70c03f1c-0270-4cda-8d79-bce46bc38ce0",
-    "message_id": "77bff728-92db-4011-a301-7f8a0f8f41f6",
-    "timestamp": "2023-05-31T03:20:02.005Z",
+    "transaction_id": "4b9b31c6-1147-4881-8e31-58990cddeb41",
+    "message_id": "8b3dedc8-2cdd-4a57-bb91-7bbb46072acd",
+    "timestamp": "2023-06-08T13:55:06.344Z",
     "bpp_id": "api.greenreceipt.in",
     "ttl": "PT30S"
   },
@@ -56,8 +56,8 @@
         "phone": "9873004115",
         "name": "Prabhat Ummat",
         "email": "prabhat@buynxt.in",
-        "created_at": "2023-05-31T03:20:02.005Z",
-        "updated_at": "2023-05-31T03:20:02.005Z"
+        "created_at": "2023-06-08T13:55:06.344Z",
+        "updated_at": "2023-06-08T13:55:06.344Z"
       },
       "fulfillments": [
         {

@@ -7,23 +7,15 @@
 	"core_version": "1.1.0",
 	"bap_id": "buyer-app-preprod.ondc.org",
 	"bap_uri": "https://buyer-app-preprod.ondc.org/protocol/v1",
-	"bpp_uri": "https://ondc.chaipoint.com/",
-	"transaction_id": "fe70e3e2-bb3c-40cf-8ac2-675b962dd3c8",
-	"message_id": "65d01f6f-8a42-434d-b21f-cfa605d3ad01",
-	"timestamp": "2023-05-31T21:01:12.052Z",
 	"bpp_id": "ondc.chaipoint.com",
+	"bpp_uri": "https://ondc.chaipoint.com/",
+	"transaction_id": "1ab22be6-e22d-4712-b839-65619c90636a",
+	"message_id": "92cfc1f4-0d95-41dd-99fb-897d52bc1671",
+	"timestamp": "2023-06-13T11:30:43.241Z",
 	"ttl": "PT30S"
   },
   "message": {
 	"order": {
-	  "provider": {
-		"id": "76",
-		"locations": [
-		  {
-			"id": "839"
-		  }
-		]
-	  },
 	  "items": [
 		{
 		  "id": "1046",
@@ -33,38 +25,28 @@
 		  "fulfillment_id": "76"
 		},
 		{
+		  "id": "831",
+		  "quantity": {
+			"count": 1
+		  },
+		  "fulfillment_id": "76"
+		},
+		{
 		  "id": "169",
 		  "quantity": {
-			"count": 2
+			"count": 1
 		  },
 		  "fulfillment_id": "76"
 		}
 	  ],
-	  "billing": {
-		"address": {
-		  "door": "koramangala",
-		  "building": "koramangala",
-		  "city": "Bengaluru",
-		  "state": "Karnataka",
-		  "country": "IND",
-		  "area_code": "560034",
-		  "locality": "Koramangala 4th Blocl",
-		  "name": "Kushagra"
-		},
-		"phone": "8799768734",
-		"name": "Kushagra",
-		"email": "kush.j@cp.com",
-		"created_at": "2023-05-31T21:01:12.052Z",
-		"updated_at": "2023-05-31T21:01:12.052Z"
-	  },
 	  "fulfillments": [
 		{
 		  "id": "76",
 		  "type": "Delivery",
 		  "end": {
 			"contact": {
-			  "email": "kush.j@cp.com",
-			  "phone": "8799768734"
+			  "phone": "8799768734",
+			  "email": "kush.j@cp.com"
 			},
 			"location": {
 			  "gps": "12.927112, 77.626652",
@@ -72,15 +54,42 @@
 				"name": "Kushagra",
 				"building": "koramangala",
 				"locality": "Koramangala 4th Blocl",
-				"city": "Bengaluru",
-				"state": "Karnataka",
 				"country": "IND",
-				"area_code": "560034"
+				"city": "Bengaluru",
+				"area_code": "560034",
+				"state": "Karnataka"
 			  }
 			}
-		  }
+		  },
+		  "tracking": false,
+		  "provider_id": "76"
 		}
-	  ]
+	  ],
+	  "provider": {
+		"id": "76",
+		"locations": [
+		  {
+			"id": "839"
+		  }
+		]
+	  },
+	  "billing": {
+		"name": "Kushagra",
+		"address": {
+		  "name": "Kushagra",
+		  "door": "koramangala",
+		  "building": "koramangala",
+		  "locality": "Koramangala 4th Blocl",
+		  "country": "IND",
+		  "city": "Bengaluru",
+		  "area_code": "560034",
+		  "state": "Karnataka"
+		},
+		"email": "kush.j@cp.com",
+		"phone": "8799768734",
+		"created_at": "2023-06-13T11:30:43.241Z",
+		"updated_at": "2023-06-13T11:30:43.241Z"
+	  }
 	}
   }
 }

@@ -9,14 +9,14 @@
 	"bap_uri": "https://buyer-app-preprod.ondc.org/protocol/v1/on_confirm",
 	"bpp_id": "ondc.chaipoint.com",
 	"bpp_uri": "https://ondc.chaipoint.com/",
-	"transaction_id": "fe70e3e2-bb3c-40cf-8ac2-675b962dd3c8",
-	"message_id": "8a67def5-37b8-4e8d-820f-5ddf33097c78",
-	"timestamp": "2023-05-31T21:01:57.132Z",
+	"transaction_id": "1ab22be6-e22d-4712-b839-65619c90636a",
+	"message_id": "b9466320-bb27-4e25-ad86-cda6a43fb3b1",
+	"timestamp": "2023-06-13T11:30:52.447Z",
 	"ttl": "PT30S"
   },
   "message": {
 	"order": {
-	  "id": "2023-05-31-819840",
+	  "id": "2023-06-13-661207",
 	  "state": "Created",
 	  "items": [
 		{
@@ -27,9 +27,16 @@
 		  "fulfillment_id": "76"
 		},
 		{
+		  "id": "831",
+		  "quantity": {
+			"count": 1
+		  },
+		  "fulfillment_id": "76"
+		},
+		{
 		  "id": "169",
 		  "quantity": {
-			"count": 2
+			"count": 1
 		  },
 		  "fulfillment_id": "76"
 		}
@@ -57,8 +64,8 @@
 			},
 			"time": {
 			  "range": {
-				"start": "2023-05-31T22:16:57.132Z",
-				"end": "2023-05-31T22:46:57.132Z"
+				"start": "2023-06-13T12:14:52.447Z",
+				"end": "2023-06-13T12:28:52.447Z"
 			  }
 			}
 		  },
@@ -77,8 +84,8 @@
 			},
 			"time": {
 			  "range": {
-				"start": "2023-05-31T21:01:57.132Z",
-				"end": "2023-05-31T21:31:57.132Z"
+				"start": "2023-06-13T11:30:52.447Z",
+				"end": "2023-06-13T11:44:52.447Z"
 			  }
 			},
 			"contact": {
@@ -111,13 +118,13 @@
 		},
 		"email": "kush.j@cp.com",
 		"phone": "8799768734",
-		"created_at": "2023-05-31T21:01:12.052Z",
-		"updated_at": "2023-05-31T21:01:12.052Z"
+		"created_at": "2023-06-13T11:30:43.241Z",
+		"updated_at": "2023-06-13T11:30:43.241Z"
 	  },
 	  "quote": {
 		"price": {
 		  "currency": "INR",
-		  "value": "712.0"
+		  "value": "796.0"
 		},
 		"breakup": [
 		  {
@@ -151,17 +158,17 @@
 			"item": {
 			  "price": {
 				"currency": "INR",
-				"value": "160.0"
+				"value": "240.0"
 			  }
 			},
-			"title": "Cold Coffee",
+			"title": "Tomato Pasta + Cold Coffee",
 			"price": {
 			  "currency": "INR",
-			  "value": "320.0"
+			  "value": "240.0"
 			},
-			"@ondc/org/item_id": "169",
+			"@ondc/org/item_id": "831",
 			"@ondc/org/item_quantity": {
-			  "count": 2
+			  "count": 1
 			},
 			"@ondc/org/title_type": "item"
 		  },
@@ -169,7 +176,34 @@
 			"title": "Tax",
 			"price": {
 			  "currency": "INR",
-			  "value": "16.0"
+			  "value": "12.0"
+			},
+			"@ondc/org/item_id": "831",
+			"@ondc/org/title_type": "tax"
+		  },
+		  {
+			"item": {
+			  "price": {
+				"currency": "INR",
+				"value": "160.0"
+			  }
+			},
+			"title": "Cold Coffee",
+			"price": {
+			  "currency": "INR",
+			  "value": "160.0"
+			},
+			"@ondc/org/item_id": "169",
+			"@ondc/org/item_quantity": {
+			  "count": 1
+			},
+			"@ondc/org/title_type": "item"
+		  },
+		  {
+			"title": "Tax",
+			"price": {
+			  "currency": "INR",
+			  "value": "8.0"
 			},
 			"@ondc/org/item_id": "169",
 			"@ondc/org/title_type": "tax"
@@ -198,8 +232,8 @@
 	  "payment": {
 		"uri": "https://juspay.in/",
 		"params": {
-		  "transaction_id": "ONDC-fe70e3e2-bb3c-40cf-8ac2-675b962dd3c8-1",
-		  "amount": "712",
+		  "transaction_id": "1ab22be6-e22d-4712-b839-65619c90636a",
+		  "amount": "796",
 		  "currency": "INR"
 		},
 		"type": "ON-ORDER",
@@ -221,8 +255,8 @@
 		  }
 		]
 	  },
-	  "created_at": "2023-05-31T21:01:55.503Z",
-	  "updated_at": "2023-05-31T21:01:57.132Z"
+	  "created_at": "2023-06-13T11:30:51.332Z",
+	  "updated_at": "2023-06-13T11:30:52.447Z"
 	}
   }
 }

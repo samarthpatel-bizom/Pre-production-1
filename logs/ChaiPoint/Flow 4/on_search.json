@@ -9,9 +9,9 @@
         "bap_uri": "https://buyer-app-preprod.ondc.org/protocol/v1",
         "bpp_id": "ondc.chaipoint.com",
         "bpp_uri": "https://ondc.chaipoint.com/",
-        "transaction_id": "072da8d5-bec9-45c0-a8a9-54bd49ed326e",
-        "message_id": "05a12e4a-dc10-4a33-ae9e-3b5e8bf8cbfe",
-        "timestamp": "2023-06-01T07:08:52.901Z",
+        "transaction_id": "048d6947-13da-4541-b073-1ac3c04ee2bf",
+        "message_id": "5c6c2618-4b6d-4784-9ac2-7dc9a4e7faa9",
+        "timestamp": "2023-06-12T14:06:55.682Z",
         "ttl": "PT30S"
     },
     "message": {
@@ -64,46 +64,6 @@
                     ],
                     "items": [
                         {
-                            "id": "831",
-                            "descriptor": {
-                                "name": "Tomato Pasta + Cold Coffee",
-                                "code": "M5034",
-                                "symbol": "https://menu-img.fountain.cool/M5034.jpg",
-                                "short_desc": "Tomato Pasta + Cold Coffee",
-                                "long_desc": "Tomato Pasta with Cold Coffee",
-                                "images": [
-                                    "https://menu-img.fountain.cool/M5034.jpg"
-                                ]
-                            },
-                            "price": {
-                                "currency": "INR",
-                                "value": "240.0",
-                                "maximum_value": "240.0"
-                            },
-                            "category_id": "Fast Food",
-                            "fulfillment_id": "1",
-                            "location_id": "1063",
-                            "tags": {
-                                "veg": "yes",
-                                "non_veg": "no"
-                            },
-                            "quantity": {
-                                "available": {
-                                    "count": "99"
-                                },
-                                "maximum": {
-                                    "count": "99"
-                                }
-                            },
-                            "@ondc/org/returnable": false,
-                            "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/return_window": "PT30M",
-                            "@ondc/org/cancellable": false,
-                            "@ondc/org/available_on_cod": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/contact_details_consumer_care": "Chaipoint,feedback@chaipoint.com,8880141000"
-                        },
-                        {
                             "id": "1046",
                             "descriptor": {
                                 "name": "The Chennai Express",
@@ -121,6 +81,46 @@
                                 "maximum_value": "179.0"
                             },
                             "category_id": "Beverages (MTO)",
+                            "fulfillment_id": "1",
+                            "location_id": "1063",
+                            "tags": {
+                                "veg": "yes",
+                                "non_veg": "no"
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": "78"
+                                },
+                                "maximum": {
+                                    "count": "78"
+                                }
+                            },
+                            "@ondc/org/returnable": false,
+                            "@ondc/org/seller_pickup_return": false,
+                            "@ondc/org/return_window": "PT30M",
+                            "@ondc/org/cancellable": false,
+                            "@ondc/org/available_on_cod": false,
+                            "@ondc/org/time_to_ship": "PT45M",
+                            "@ondc/org/contact_details_consumer_care": "Chaipoint,feedback@chaipoint.com,8880141000"
+                        },
+                        {
+                            "id": "831",
+                            "descriptor": {
+                                "name": "Tomato Pasta + Cold Coffee",
+                                "code": "M5034",
+                                "symbol": "https://menu-img.fountain.cool/M5034.jpg",
+                                "short_desc": "Tomato Pasta + Cold Coffee",
+                                "long_desc": "Tomato Pasta with Cold Coffee",
+                                "images": [
+                                    "https://menu-img.fountain.cool/M5034.jpg"
+                                ]
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "240.0",
+                                "maximum_value": "240.0"
+                            },
+                            "category_id": "Fast Food",
                             "fulfillment_id": "1",
                             "location_id": "1063",
                             "tags": {
@@ -279,7 +279,7 @@
                     "ttl": "PT30S",
                     "time": {
                         "label": "enable",
-                        "timestamp": "2023-06-01T07:08:52.901Z"
+                        "timestamp": "2023-06-12T14:06:55.682Z"
                     },
                     "fulfillments": [
                         {
@@ -354,50 +354,10 @@
                             },
                             "quantity": {
                                 "available": {
-                                    "count": "2"
+                                    "count": "245"
                                 },
                                 "maximum": {
-                                    "count": "2"
-                                }
-                            },
-                            "@ondc/org/returnable": false,
-                            "@ondc/org/seller_pickup_return": false,
-                            "@ondc/org/return_window": "PT30M",
-                            "@ondc/org/cancellable": false,
-                            "@ondc/org/available_on_cod": false,
-                            "@ondc/org/time_to_ship": "PT45M",
-                            "@ondc/org/contact_details_consumer_care": "Chaipoint,feedback@chaipoint.com,8880141000"
-                        },
-                        {
-                            "id": "169",
-                            "descriptor": {
-                                "name": "Cold Coffee",
-                                "code": "M3400",
-                                "symbol": "https://images-qa.fountain.cool/product/1/12-39-07-images.jpeg",
-                                "short_desc": "Cold Coffee",
-                                "long_desc": "Cold Coffee",
-                                "images": [
-                                    "https://images-qa.fountain.cool/product/1/12-39-07-images.jpeg"
-                                ]
-                            },
-                            "price": {
-                                "currency": "INR",
-                                "value": "160.0",
-                                "maximum_value": "160.0"
-                            },
-                            "category_id": "Fast Food",
-                            "fulfillment_id": "1",
-                            "location_id": "839",
-                            "tags": {
-                                "veg": "yes",
-                                "non_veg": "no"
-                            },
-                            "quantity": {
-                                "available": {
-                                    "count": "9999"
-                                },
-                                "maximum": {
-                                    "count": "9999"
+                                    "count": "245"
                                 }
                             },
                             "@ondc/org/returnable": false,
@@ -487,6 +447,46 @@
                             "@ondc/org/available_on_cod": false,
                             "@ondc/org/time_to_ship": "PT45M",
                             "@ondc/org/contact_details_consumer_care": "Chaipoint,feedback@chaipoint.com,8880141000"
+                        },
+                        {
+                            "id": "169",
+                            "descriptor": {
+                                "name": "Cold Coffee",
+                                "code": "M3400",
+                                "symbol": "https://images-qa.fountain.cool/product/1/12-39-07-images.jpeg",
+                                "short_desc": "Cold Coffee",
+                                "long_desc": "Cold Coffee",
+                                "images": [
+                                    "https://images-qa.fountain.cool/product/1/12-39-07-images.jpeg"
+                                ]
+                            },
+                            "price": {
+                                "currency": "INR",
+                                "value": "160.0",
+                                "maximum_value": "160.0"
+                            },
+                            "category_id": "Fast Food",
+                            "fulfillment_id": "1",
+                            "location_id": "839",
+                            "tags": {
+                                "veg": "yes",
+                                "non_veg": "no"
+                            },
+                            "quantity": {
+                                "available": {
+                                    "count": "9999"
+                                },
+                                "maximum": {
+                                    "count": "9999"
+                                }
+                            },
+                            "@ondc/org/returnable": false,
+                            "@ondc/org/seller_pickup_return": false,
+                            "@ondc/org/return_window": "PT30M",
+                            "@ondc/org/cancellable": false,
+                            "@ondc/org/available_on_cod": false,
+                            "@ondc/org/time_to_ship": "PT45M",
+                            "@ondc/org/contact_details_consumer_care": "Chaipoint,feedback@chaipoint.com,8880141000"
                         }
                     ],
                     "tags": [
@@ -544,7 +544,7 @@
                     "ttl": "PT30S",
                     "time": {
                         "label": "enable",
-                        "timestamp": "2023-06-01T07:08:52.901Z"
+                        "timestamp": "2023-06-12T14:06:55.682Z"
                     },
                     "fulfillments": [
                         {
@@ -664,7 +664,7 @@
                     "ttl": "PT30S",
                     "time": {
                         "label": "enable",
-                        "timestamp": "2023-06-01T07:08:52.901Z"
+                        "timestamp": "2023-06-12T14:06:55.682Z"
                     },
                     "fulfillments": [
                         {
@@ -674,7 +674,7 @@
                             }
                         }
                     ],
-                    "@ondc/org/fssai_license_no": "TEST_FSSAI3323"
+                    "@ondc/org/fssai_license_no": "12345678947263"
                 }
             ],
             "bpp/fulfillments": [

@@ -9,20 +9,20 @@
 	"bap_uri": "https://buyer-app-preprod.ondc.org/protocol/v1/on_select",
 	"bpp_id": "ondc.chaipoint.com",
 	"bpp_uri": "https://ondc.chaipoint.com/",
-	"transaction_id": "51e17c13-ab5a-4784-9635-b34db6cd777f",
-	"message_id": "01c35593-8c33-4eb5-8053-c5de332b5392",
-	"timestamp": "2023-05-31T20:52:35.754Z",
+	"transaction_id": "09f1512c-7e94-4318-a2af-453b61d8c132",
+	"message_id": "4d1cf91c-6b16-426e-9400-516476c5ef17",
+	"timestamp": "2023-06-13T11:25:13.995Z",
 	"ttl": "PT30S"
   },
   "message": {
 	"order": {
 	  "items": [
 		{
-		  "id": "1061",
+		  "id": "831",
 		  "fulfillment_id": "76"
 		},
 		{
-		  "id": "831",
+		  "id": "1061",
 		  "fulfillment_id": "76"
 		}
 	  ],
@@ -35,41 +35,6 @@
 		  "value": "1594.0"
 		},
 		"breakup": [
-		  {
-			"item": {
-			  "quantity": {
-				"available": {
-				  "count": "9999"
-				},
-				"maximum": {
-				  "count": "9999"
-				}
-			  },
-			  "price": {
-				"currency": "INR",
-				"value": "519.0"
-			  }
-			},
-			"title": "Snacks Combo 2",
-			"price": {
-			  "currency": "INR",
-			  "value": "1038.0"
-			},
-			"@ondc/org/item_id": "1061",
-			"@ondc/org/item_quantity": {
-			  "count": 2
-			},
-			"@ondc/org/title_type": "item"
-		  },
-		  {
-			"title": "Tax",
-			"price": {
-			  "currency": "INR",
-			  "value": "51.9"
-			},
-			"@ondc/org/item_id": "1061",
-			"@ondc/org/title_type": "tax"
-		  },
 		  {
 			"item": {
 			  "quantity": {
@@ -103,6 +68,41 @@
 			  "value": "24.0"
 			},
 			"@ondc/org/item_id": "831",
+			"@ondc/org/title_type": "tax"
+		  },
+		  {
+			"item": {
+			  "quantity": {
+				"available": {
+				  "count": "9999"
+				},
+				"maximum": {
+				  "count": "9999"
+				}
+			  },
+			  "price": {
+				"currency": "INR",
+				"value": "519.0"
+			  }
+			},
+			"title": "Snacks Combo 2",
+			"price": {
+			  "currency": "INR",
+			  "value": "1038.0"
+			},
+			"@ondc/org/item_id": "1061",
+			"@ondc/org/item_quantity": {
+			  "count": 2
+			},
+			"@ondc/org/title_type": "item"
+		  },
+		  {
+			"title": "Tax",
+			"price": {
+			  "currency": "INR",
+			  "value": "51.9"
+			},
+			"@ondc/org/item_id": "1061",
 			"@ondc/org/title_type": "tax"
 		  },
 		  {

@@ -10,9 +10,9 @@
     "bap_id": "buyer-app-preprod.ondc.org",
     "bap_uri": "https://buyer-app-preprod.ondc.org/protocol/v1",
     "bpp_uri": "https://api.greenreceipt.in/ondc/",
-    "transaction_id": "70c03f1c-0270-4cda-8d79-bce46bc38ce0",
-    "message_id": "669417aa-e9cd-4804-b790-edd6c110a553",
-    "timestamp": "2023-05-31T03:19:42.215Z",
+    "transaction_id": "4b9b31c6-1147-4881-8e31-58990cddeb41",
+    "message_id": "aebb8bf2-79c9-4b1e-bf79-431cd8d6d830",
+    "timestamp": "2023-06-08T13:54:30.22Z",
     "bpp_id": "api.greenreceipt.in",
     "ttl": "PT30S"
   },

@@ -9,25 +9,25 @@
 	"bap_uri": "https://buyer-app-preprod.ondc.org/protocol/v1/on_confirm",
 	"bpp_id": "ondc.chaipoint.com",
 	"bpp_uri": "https://ondc.chaipoint.com/",
-	"transaction_id": "51e17c13-ab5a-4784-9635-b34db6cd777f",
-	"message_id": "73d99dc2-2248-4e6e-989b-e0a218918a4b",
-	"timestamp": "2023-05-31T20:54:01.372Z",
+	"transaction_id": "09f1512c-7e94-4318-a2af-453b61d8c132",
+	"message_id": "d72339c5-c70b-4b53-8877-4385f7ac615a",
+	"timestamp": "2023-06-13T11:25:25.670Z",
 	"ttl": "PT30S"
   },
   "message": {
 	"order": {
-	  "id": "2023-05-31-539897",
+	  "id": "2023-06-13-203778",
 	  "state": "Created",
 	  "items": [
 		{
-		  "id": "1061",
+		  "id": "831",
 		  "quantity": {
 			"count": 2
 		  },
 		  "fulfillment_id": "76"
 		},
 		{
-		  "id": "831",
+		  "id": "1061",
 		  "quantity": {
 			"count": 2
 		  },
@@ -57,8 +57,8 @@
 			},
 			"time": {
 			  "range": {
-				"start": "2023-05-31T22:09:01.372Z",
-				"end": "2023-05-31T22:39:01.372Z"
+				"start": "2023-06-13T12:09:25.67Z",
+				"end": "2023-06-13T12:23:25.67Z"
 			  }
 			}
 		  },
@@ -77,8 +77,8 @@
 			},
 			"time": {
 			  "range": {
-				"start": "2023-05-31T20:54:01.372Z",
-				"end": "2023-05-31T21:24:01.372Z"
+				"start": "2023-06-13T11:25:25.670Z",
+				"end": "2023-06-13T11:39:25.67Z"
 			  }
 			},
 			"contact": {
@@ -111,8 +111,8 @@
 		},
 		"email": "kush.j@cp.com",
 		"phone": "8799768734",
-		"created_at": "2023-05-31T20:53:10.796Z",
-		"updated_at": "2023-05-31T20:53:10.796Z"
+		"created_at": "2023-06-13T11:25:18.075Z",
+		"updated_at": "2023-06-13T11:25:18.075Z"
 	  },
 	  "quote": {
 		"price": {
@@ -120,33 +120,6 @@
 		  "value": "1594.0"
 		},
 		"breakup": [
-		  {
-			"item": {
-			  "price": {
-				"currency": "INR",
-				"value": "519.0"
-			  }
-			},
-			"title": "Snacks Combo 2",
-			"price": {
-			  "currency": "INR",
-			  "value": "1038.0"
-			},
-			"@ondc/org/item_id": "1061",
-			"@ondc/org/item_quantity": {
-			  "count": 2
-			},
-			"@ondc/org/title_type": "item"
-		  },
-		  {
-			"title": "Tax",
-			"price": {
-			  "currency": "INR",
-			  "value": "51.9"
-			},
-			"@ondc/org/item_id": "1061",
-			"@ondc/org/title_type": "tax"
-		  },
 		  {
 			"item": {
 			  "price": {
@@ -175,6 +148,33 @@
 			"@ondc/org/title_type": "tax"
 		  },
 		  {
+			"item": {
+			  "price": {
+				"currency": "INR",
+				"value": "519.0"
+			  }
+			},
+			"title": "Snacks Combo 2",
+			"price": {
+			  "currency": "INR",
+			  "value": "1038.0"
+			},
+			"@ondc/org/item_id": "1061",
+			"@ondc/org/item_quantity": {
+			  "count": 2
+			},
+			"@ondc/org/title_type": "item"
+		  },
+		  {
+			"title": "Tax",
+			"price": {
+			  "currency": "INR",
+			  "value": "51.9"
+			},
+			"@ondc/org/item_id": "1061",
+			"@ondc/org/title_type": "tax"
+		  },
+		  {
 			"title": "Delivery Charges",
 			"price": {
 			  "currency": "INR",
@@ -198,7 +198,7 @@
 	  "payment": {
 		"uri": "https://juspay.in/",
 		"params": {
-		  "transaction_id": "ONDC-51e17c13-ab5a-4784-9635-b34db6cd777f-1",
+		  "transaction_id": "09f1512c-7e94-4318-a2af-453b61d8c132",
 		  "amount": "1594",
 		  "currency": "INR"
 		},
@@ -221,8 +221,8 @@
 		  }
 		]
 	  },
-	  "created_at": "2023-05-31T20:54:00.134Z",
-	  "updated_at": "2023-05-31T20:54:01.372Z"
+	  "created_at": "2023-06-13T11:25:24.787Z",
+	  "updated_at": "2023-06-13T11:25:25.670Z"
 	}
   }
 }
